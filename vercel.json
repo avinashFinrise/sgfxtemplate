@@ -1,15 +1,12 @@
 {
-    "rewrites": [
-      {
-        "source": "/forex",
-        "destination": "/forex.html"
-      }
-    ],
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "/forex",
-        "permanent": true
-      }
-    ]
-  }
+  "rewrites": [
+    {
+      "source": "/:page",
+      "destination": "/:page.html"
+    },
+    {
+      "source": "/",
+      "destination": "/forex.html"
+    }
+  ]
+}
